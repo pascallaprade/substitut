@@ -25,8 +25,8 @@ describe('In the substitut library,', function() {
   describe('#substitute()', function() {
     it('should return a new string with the patterns found in the dictionary ' +
        'substituted with their associated value', function() {
-      const input = "Hello, i am a zi6-model."
-      const expected = "Hello, 1 42m 42 c1mail-model."
+      const input = "Hello, i am a zi6:model."
+      const expected = "Hello, 1 42m 42 c1mail=model."
       const result = substitute(input, objectDictionary)
       expect(result).to.equal(expected)
     })
