@@ -19,7 +19,7 @@ const arrayDictionary = [
   'a','z','c','i','6','car'
 ]
 
-describe('', function() {
+describe('In the substitut library,', function() {
   describe('#substitute()', function() {
     it('should return a new string with the patterns found in the dictionary ' +
        'substituted with their associated value', function() {
