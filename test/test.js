@@ -4,7 +4,6 @@ const expect = require('chai').expect
 const {
   countOccurences
 } = require('../index')
-console.log((typeof countOccurences))
 
 const objectDictionary = {
   'a': '42',
